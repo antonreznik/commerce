@@ -1,7 +1,10 @@
 ﻿<mat-card>
     <form [formGroup]="loginForm">
-        <!--<mat-form-field>
-            <input class="form-control" [formControl]="email" matInput placeholder="Enter your email">
-        </mat-form-field>-->
+        <mat-form-field>
+            <input type="text" formControlName="email" matInput placeholder="Enter your email">
+        </mat-form-field>
     </form>
 </mat-card>
+<mat-form-field>
+    <input matInput placeholder="Input">
+</mat-form-field>
